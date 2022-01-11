@@ -3,18 +3,23 @@
 .container{
     display: flex;
     /* flex-direction: column; */
-    align-items: center;
+    /* align-items: center; */
     margin-top:20px;
 }
 h1{
     font-size:large;
+    background-color:gold;
 }
+
 .heading,.content{
-    width:100%;
     display: flex;
     flex-direction: row;
-    /* justify-content:space-between; */
 }
 p{
     font-size:15px;
 }
+.content p{
+    
+    background-color: aqua;   
+}
+

@@ -11,7 +11,7 @@ const Accordion = ({id}) => {
       <div className="container">
         <div className="heading" onClick={icon}>
           <div>
-            <h1>Question &nbsp; {id}</h1>
+            <h1 >Question &nbsp; {id}</h1>
           </div>
           <div>
             <span>{state ?"➡️":"⬅️"}</span>
@@ -20,7 +20,6 @@ const Accordion = ({id}) => {
         {state
               ? <div className="content"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"
               </p></div>: ""}
-        
       </div>
     </>
   );
