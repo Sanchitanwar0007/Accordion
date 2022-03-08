@@ -1,0 +1,25 @@
+*{margin:0px;padding:0px}
+
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    margin-top:20px;
+}
+h1{
+    font-size:large;
+    background-color:gold;
+}
+
+.heading,.content{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    font-size:15px;
+}
+.content p{
+    
+    background-color: aqua;   
+}
+
